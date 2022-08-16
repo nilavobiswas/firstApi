@@ -5,7 +5,7 @@ import net.bytebuddy.dynamic.loading.InjectionClassLoader;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "Emp")
+@Table(name = "employee")
 public class Product {
 
     @Id
