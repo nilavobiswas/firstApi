@@ -15,10 +15,11 @@ public class Product {
     private String City;
     private int age;
 
-    public Product(String name, String city, int age) {
+    public Product(String name, String city, int age, int id) {
         Name = name;
         City = city;
         this.age = age;
+        this.Id = id;
     }
 
     public Product() {
@@ -46,5 +47,13 @@ public class Product {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+    public int getId() {
+        return Id;
+    }
+
+    public void setId(int id) {
+        Id = id;
     }
 }
